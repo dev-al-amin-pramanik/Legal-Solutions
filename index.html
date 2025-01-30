@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Solutions</title>
+
+    <!--Flowbite cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="./images/business.png"
+      type="image/x-icon"
+    />
+
+    <!--Google font: EB Garamond-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Font awesome Cdn-->
+    <script
+      src="https://kit.fontawesome.com/054c069e49.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--DaisyUi Cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Customizing tailwindcss-->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              primaryColor: "#B68C5A",
+              customGray: "rgba(243, 243, 243, 1)",
+            },
+            fontFamily: {
+              Garamond: ["EB Garamond", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-Garamond">
+    <!--Header Start-->
+    <header class="w-11/12 mx-auto">
+      <!--Nav Start-->
+      <nav class="py-12">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Home</a></li>
+                <li>
+                  <a>Services <i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+                <li>
+                  <a>Cases <i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+                <li>
+                  <a>Blog <i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+                <li>
+                  <a>Contact us <i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost"
+              ><img src="./images/logo2.png" alt="logo"
+            /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-lg text-[#707070]">
+              <li><a>Home</a></li>
+              <li>
+                <a>Services <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+              <li>
+                <a>Cases <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+              <li>
+                <a>Blog <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+              <li>
+                <a>Contact us <i class="fa-solid fa-chevron-right"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="bg-primaryColor py-4 px-8 text-white text-lg font-semibold rounded-lg cursor-pointer"
+              >Free Consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <!--Banner Section-->
+      <div class="banner bg-[url('./images/banner.png')] bg-cover rounded-lg">
+        <div
+          class="py-40 px-10 bg-[linear-gradient(to_top,rgba(17,17,17,1),rgba(17,17,17,0))] rounded-lg"
+        >
+          <h1 class="text-7xl font-bold text-white text-center mb-8">
+            We Provide Effective <br />
+            Legal Solutions
+          </h1>
+          <p
+            class="text-[color:rgba(231,231,231,1)] text-center text-base mb-8"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority <br />
+            have suffered alteration in some form, by injected humour.
+          </p>
+          <div class="flex justify-center items-center gap-2 mb-8">
+            <input
+              class="text-start md:w-[500px] md:h-[64px] w-[250px] h-[45px] rounded-lg px-6 text-xl"
+              type="search"
+              placeholder="Search your service"
+            />
+            <button
+              class="bg-primaryColor text-white md:h-[64px] md:w-[150px] h-[45px] w-[70px] rounded-lg text-xl"
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header End-->
+  </body>
+</html>
